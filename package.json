@@ -1,0 +1,30 @@
+{
+  "name": "carlos-azuaje-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://github.com/azuajece/azuajece.github.io",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.0",
+    "terser": "^5.46.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.0.0",
+    "gh-pages": "^6.1.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.0"
+  }
+}
