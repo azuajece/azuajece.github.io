@@ -11,5 +11,6 @@ export default defineConfig({
         outDir: 'dist',
         sourcemap: false,
         minify: 'terser',
+        assetsDir: 'assets', // Asegura que los archivos vayan a /assets/
     },
 });
